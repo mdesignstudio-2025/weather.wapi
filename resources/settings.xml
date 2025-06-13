@@ -1,1 +1,38 @@
+<settings>
+	<category label="География">
 
+        <setting label="Местоположение 1" type="lsep"/>
+        <setting id="loc1_wapi" label="Название для сервиса (Eng)" type="text" default="moscow"/>
+        <setting label="Moscow, RU | moscow | 55.75, 37.62" type="text" enable="false"/>
+        <setting id="loc1_user" label="Название для окна погоды" type="text" default="Москва"/>
+        <setting label="Москва, РФ | Дорогая моя столица" type="text" enable="false"/>
+
+        <setting type="sep"/>
+
+        <setting label="Местоположение 2" type="lsep"/>
+        <setting id="loc2_wapi" label="Название для сервиса (Eng)" type="text" default=""/>
+        <setting id="loc2_user" label="Название для окна погоды" type="text" default=""/>
+
+        <setting type="sep"/>
+
+        <setting label="Местоположение 3" type="lsep"/>
+        <setting id="loc3_wapi" label="Название для сервиса (Eng)" type="text" default=""/>
+        <setting id="loc3_user" label="Название для окна погоды" type="text" default=""/>
+
+    </category>
+
+    <category label="Настройка API">
+
+        <setting id="api_key" label="Ключ API" type="text" default=""/>
+
+        <setting type="sep"/>
+
+        <setting id="days" label="Количество дней прогноза" type="text" default="14"/>
+
+    </category>
+
+</settings>
+
+
+
+<!--<setting type="sep"/>-->
