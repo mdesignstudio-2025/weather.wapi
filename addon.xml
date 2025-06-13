@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="weather.wapi" version="0.3.1" name="WeatherAPI" provider-name="Mdesignstudio">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.27.1"/>
+  </requires>
+  <extension point="xbmc.python.weather" library="main.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>Погода с сайта WeatherAPI.com</summary>
+    <description>
+      Погодные данные предоставляются сайтом https://www.weatherapi.com. Пользователю необходимо зарегистрироваться на этом сервисе и получить ключ API.
+      В течение тестового периода предоставляется расширенный прогноз на 14 дней, который отлично отображается в скине Estuary (с другими скинами аддон не тестировался). Если не покупать подписку, то далее автоматически будет предоставляться прогноз на 3 дня, как у большинства погодных сервисов.
+      Поскольку API сайта требует указывать данные о местоположении на английском, для пользователя в аддоне предусмотрена возможность задать еще и свое название местоположения, которое будет в итоге отображено в окне погоды.
+      Серым цветом под полями первого местоположения приведены примеры их заполнения. Если пользователь не заполнил второе поле, в окне погоды будет отображено значение первого поля (на английском).
+    </description>
+    <disclaimer>При регистрации на сайте https://www.weatherapi.com пользователь соглашается со всеми условиями обработки персональных данных</disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>resources/logo-wapi.jpg</icon>
+      <fanart>resources/fanart-wapi.png</fanart>
+      <screenshot>resources/screen-1.png</screenshot>
+      <screenshot>resources/screen-2.png</screenshot>
+      <screenshot>resources/screen-3.png</screenshot>
+      <screenshot>resources/screen-4.png</screenshot>
+      <screenshot>resources/Mdesignstudio.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
